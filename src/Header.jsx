@@ -16,29 +16,32 @@ const rasmlar = [
 
 const Header = () => {
   return (
-    <AliceCarousel
-      mouseTracking
-      items={rasmlar}
-      activeIndex={0}
-      animationDuration={500}
-      animationType={'slide'}
-      autoPlay={true}
-      autoPlayControls={true}
-      autoPlayDirection={'ltr'}
-      disableButtonsControls={true}
-      disableDotsControls={true}
-      disableSlideInfo={false}
-      infinite={true}
-      responsive={{
-        0: {
-          items: 1,
-        },
-        1024: {
-          items: 3,
-          itemsFit: 'contain',
-        }
-      }}
-    />
+    <div>
+      <AliceCarousel
+        mouseTracking
+        items={rasmlar}
+        activeIndex={0}
+        animationDuration={500}
+        animationType={'slide'}
+        autoPlay={true}
+        autoPlayControls={true}
+        autoPlayDirection={'ltr'}
+        disableButtonsControls={true}
+        disableDotsControls={true}
+        disableSlideInfo={false}
+        infinite={true}
+        responsive={{
+          0: {
+            items: 1,
+          },
+          1024: {
+            items: 3,
+            itemsFit: 'contain',
+          }
+        }}
+      />
+      <h1>Hello</h1>
+    </div>
   )
 }
 

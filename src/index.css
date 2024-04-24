@@ -1,0 +1,9 @@
+@import "react-alice-carousel/lib/alice-carousel.css";
+
+img{
+  width: 800px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  height: 400px;
+}

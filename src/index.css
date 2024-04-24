@@ -1,9 +1,13 @@
 @import "react-alice-carousel/lib/alice-carousel.css";
 
-img{
+img {
   width: 800px;
   margin: auto;
   display: block;
   margin-top: 20px;
   height: 400px;
+}
+
+h1 {
+  color: red;
 }
